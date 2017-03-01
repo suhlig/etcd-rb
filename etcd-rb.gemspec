@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'httpclient', '~> 2.8'
   s.add_development_dependency 'multi_json', '~> 1'
+  s.add_development_dependency 'rake', '~> 12'
 
   s.platform = Gem::Platform::RUBY
   s.required_ruby_version = '>= 2.2.2'
