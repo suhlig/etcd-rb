@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.bindir        = 'bin'
 
   s.add_dependency 'httpclient', '~> 2.8'
-  s.add_dependency 'multi_json', '~> 1.7'
+  s.add_development_dependency 'multi_json', '~> 1'
 
   s.platform = Gem::Platform::RUBY
   s.required_ruby_version = '>= 1.9.3'
